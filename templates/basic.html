@@ -44,8 +44,8 @@
 		<div id="top-header">
 			<div class="container">
 				<ul class="header-links pull-left">
-					<li><a href="https://www.youtube.com/channel/UCHwhZ7HPBhUh2IscPSL0pHA" target="_blank"><i class="fa fa-youtube"></i>스타트코딩</a></li>
-					<li><a href="#"><i class="fa fa-envelope-o"></i> kkj6369@naver.com</a></li>
+					<li><a class="brand-name" href="https://www.youtube.com/channel/UCHwhZ7HPBhUh2IscPSL0pHA" target="_blank"><i class="fa fa-youtube"></i>스타트코딩</a></li>
+					<li><a class="email" href="#"><i class="fa fa-envelope-o"></i> kkj6369@naver.com</a></li>
 					<li><a href="#"><i class="fa fa-map-marker"></i> 1734 Stonecoal Road</a></li>
 				</ul>
 				<ul class="header-links pull-right">
@@ -350,7 +350,7 @@
 					<!-- /store top filter -->
 
 					<!-- store products -->
-					<div class="row">
+					<div class="row" id="product-container">
 						{% for product in product_data %}
 						<div class="col-md-4 col-xs-6">
 							<div class="product">

@@ -2136,7 +2136,7 @@ textarea.input {
 	13 -> RESPONSIVE
 ===========================================================*/
 
-.col-xs-6 {
+#product-container > div {
   height: 540px;
 }
 
@@ -2170,7 +2170,7 @@ textarea.input {
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .col-xs-6 {
+  #product-container > div {
     height: 580px;
   }
 }
@@ -2183,12 +2183,12 @@ textarea.input {
   .section-tab-nav li {
     margin-top: 10px;
   }
-  .col-xs-6 {
+  #product-container > div {
     height: 580px;
   }
 }
 @media only screen and (max-width: 600px) {
-  .col-xs-6 {
+  #product-container > div {
     height: 530px;
   }
 }
